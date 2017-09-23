@@ -16,10 +16,6 @@ gem 'jbuilder', '~> 2.5'
 gem 'slim-rails'
 gem 'materialize-sass'
 
-# Database
-gem 'elasticsearch-model'
-gem 'elasticsearch-rails'
-
 # Background processing
 gem 'sidekiq'
 
