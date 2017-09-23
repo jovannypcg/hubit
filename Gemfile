@@ -25,6 +25,7 @@ gem 'sidekiq'
 
 group :development, :test do
   gem 'pry-nav', '~> 0.2.4'
+  gem 'sqlite3'
 end
 
 group :development do
