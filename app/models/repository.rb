@@ -14,6 +14,7 @@ class Repository < ApplicationRecord
         gh_id: repo['id'],
         name: repo['name'],
         full_name: repo['full_name'],
+        description: repo['description'],
         url: repo['html_url'])
   end
 end
